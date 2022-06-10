@@ -1,0 +1,14 @@
+.project-container {
+  width: 60%;
+}
+.project-container button {
+  all: unset;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+  .project-container {
+    width: 100%;
+  }
+}
