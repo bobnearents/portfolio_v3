@@ -30,8 +30,12 @@ function App() {
           <div className="content">
             <div className="call-to-action">
               <p>
-                I'm looking for work! Check out my <a href="">resume</a> or just
-                send me an <a href="mailto:bobnearents@gmail.com">email</a>
+                I'm looking for work! Check out my{" "}
+                <a href="https://docs.google.com/document/d/1OfWIbO4OSSswaS01Nwqdyh6KTAMhslMXUt58ElyQZMs/edit?usp=sharing">
+                  resume
+                </a>{" "}
+                or just send me an{" "}
+                <a href="mailto:bobnearents@gmail.com">email</a>
               </p>
             </div>
             <p className="about-me">{aboutText}</p>
