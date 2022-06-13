@@ -1,7 +1,7 @@
 import Header from "../Header/Header";
 import "./App.css";
 import ProjectList from "./ProjectList/ProjectList";
-import logo from "../assets/logo-opaque.png";
+
 import { useState } from "react";
 import Project from "../Project/Project";
 
@@ -42,7 +42,6 @@ function App() {
             <ProjectList setProject={setProject} />
           </div>
         )}
-        <img id="logo" src={logo} />
       </div>
     </>
   );
