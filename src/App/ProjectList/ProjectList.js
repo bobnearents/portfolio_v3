@@ -56,13 +56,9 @@ export default function ProjectList(props) {
         "This was a quick frontend project. They wanted an admin dashboard for an already functioning app.",
     },
   ];
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log("etst");
-  };
   return (
     <div className="project-list-container">
-      <h2>Projects:</h2>
+      <h2>Portfolio:</h2>
       <ul>
         {professionalProjects.map((project, i) => {
           return (
