@@ -23,10 +23,17 @@ export default function ProjectList(props) {
     },
     {
       name: "Nurture",
-      tools: ["React", "AntD UI library", "node.js", "express"],
+      tools: [
+        "React",
+        "AntD UI library",
+        "node.js",
+        "express",
+        "PostgreSQL",
+        "AWS S3",
+      ],
       team: 1,
-      duration: 3,
-      link: "https://nurture-client.herokuapp.com/",
+      duration: 12,
+      link: "https://nurture-client.onrender.com/",
       description:
         "This project was a full resource directory; listing all medical providers in the virginia area for new mothers. The client wanted an MVP in order to apply for grants; after showcasing the website she was granted $20,000. We worked through user stories in order to develop core features for investors and users alike.",
     },
