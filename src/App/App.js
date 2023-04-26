@@ -6,7 +6,7 @@ import { useState } from "react";
 import Project from "../Project/Project";
 
 const aboutText =
-  "I'm a freelance web developer with over 3 years of professional experience. In any situation of life I strive to be learning something. Whether it be rules to a new board game, or the latest Javascript library. I thrive when I'm working with a team of passionate people who care about the quality of their work.";
+  "As a dedicated full-stack web developer with over 4 years of professional experience, I am constantly driven by a desire for continuous learning. I find joy in acquiring knowledge, whether it's mastering the rules of a new board game or staying up-to-date with the latest JavaScript libraries. Collaboration is where I truly thrive, particularly when working with a team of passionate individuals who share a strong commitment to delivering high-quality work.";
 
 function App() {
   const [activeProject, setActiveProject] = useState();
@@ -31,7 +31,7 @@ function App() {
             <div className="call-to-action">
               <p>
                 I'm looking for work! Check out my{" "}
-                <a href="https://docs.google.com/document/d/1OfWIbO4OSSswaS01Nwqdyh6KTAMhslMXUt58ElyQZMs/edit?usp=sharing">
+                <a href="https://docs.google.com/document/d/1jeoFNS0MEhHUJuzhA2y7t0Q-4iXezJtKs6PkzYk-dWo/edit?usp=sharing">
                   resume
                 </a>{" "}
                 or just send me an{" "}
